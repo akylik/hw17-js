@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Timer from "./timer/timer.js";
-
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -13,22 +12,14 @@ ReactDOM.render(
       autoStart={false}
       infinity={false}
       from={10}
-      interval={1000}
+      // interval={1000}
     />
-
     <Timer
-      autoStart={true}
-      infinity={false}
-      from={99}
-      interval={2000}
-    />
-
-    {/* <Timer
       autoStart={true}
       infinity={true}
       from={60}
-      interval={100}
-    /> */}
+      // interval={100}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
