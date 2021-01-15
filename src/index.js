@@ -12,13 +12,11 @@ ReactDOM.render(
       autoStart={false}
       infinity={false}
       from={10}
-      // interval={1000}
     />
     <Timer
       autoStart={true}
       infinity={true}
       from={60}
-      // interval={100}
     />
   </React.StrictMode>,
   document.getElementById('root')
